@@ -1,4 +1,12 @@
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: black;
+    align-items: center;
+}
+
 .brand{
     color: red;
     font-size:4vw;
@@ -8,39 +16,33 @@
     margin: 0;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    text-decoration: black;
+.words{
+    padding-left: 2%;
 }
 
-.options {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
+
+
 
 .nav2{
   display: flex;
-  width: 30px;
+  flex-direction: column;
   gap: 30px;
-  position: relative;
-  
+
+
 }
 
 .nav3{
     display: flex;
     background-color: red;
     color: white;
-    padding: 20%;
+    padding: 10px;
     border-radius: 6px;
     font-size: 30px;
 }
 
 .body{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: sans-serif;
     font-size: 18px;
 }
@@ -52,15 +54,16 @@ justify-content: space-between;
     border-radius: 6px;
 }
 
+
 .bottom{
  position: absolute;
  width: 100%;
  bottom: 0%;
- padding: 4%;
+ padding: 2%;
  background-color: black;
  color: white;
  font-family: sans-serif;
- font-size: 20px;
+ font-size: 30px;
  text-align: center;
  border-radius: 5px;
 }
